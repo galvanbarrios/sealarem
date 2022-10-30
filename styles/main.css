@@ -1,0 +1,72 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+	background-color: #153258;
+}
+
+.dropdown-menu{
+	background-color: #153258;
+}
+
+.dropdown-item{
+	color: #fff;
+}
+
+.carousel, .text-certificade,
+.grid-images, .grid-images figure,
+.grid-images img{
+	border-radius: 5px;
+}
+
+.carousel{
+	max-width: 1280px;
+	margin: 20px auto;
+}
+
+.text-certificade{
+	margin: 35px;
+	padding: 15px;
+	border: 1px solid #153258;
+	color: #153258;
+	display: flex;
+	column-gap: 30px;
+}
+
+.grid-images-title{
+	text-align: center;
+	color: #153258;
+}
+
+.grid-images{
+	margin: 35px;
+	padding: 25px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: #153258;
+	color: #fff;
+	grid-gap: 20px;
+}
+
+.grid-images figure{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 10px;
+	border: 1px solid #fff;
+	gap: 15px;
+}
+
+.grid-images img{
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+	padding-top: 10px;
+	transition: 0.2s all;
+}
+
+.grid-images img:hover{
+	transform: scale(1.05);
+}

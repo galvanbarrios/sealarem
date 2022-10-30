@@ -1,0 +1,35 @@
+*{
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar{
+	background-color: #153258;
+}
+
+.dropdown-menu{
+	background-color: #153258;
+}
+
+.dropdown-item{
+	color: #fff;
+}
+
+.header{
+    margin: 35px;
+    padding: 15px;
+    border: 1px solid #153258;
+    border-radius: 5px;
+    color: #153258;
+}
+
+.content{
+    margin: 35px;
+    padding: 15px;
+    background-color: #153258;
+    border-radius: 5px;
+    color: #fff;
+}

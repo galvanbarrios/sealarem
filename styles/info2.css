@@ -1,0 +1,60 @@
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar{
+	background-color: #153258;
+}
+
+.dropdown-menu{
+	background-color: #153258;
+}
+
+.dropdown-item{
+	color: #fff;
+}
+
+.first-part-p{
+    margin: 10px 35px;
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    border: 1px solid #153258;
+    border-radius: 5px;
+}
+
+.first-part-p img{
+    width: 300px;
+    height: 300px;
+}
+
+.info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-text h2{
+    color: darkblue;
+}
+
+.slogan{
+    text-align: center;
+    color: darkblue;
+    padding: 20px;
+}
+
+.questions{
+    text-align: center;
+    color: #153258;
+    margin-top: 40px;
+}
+
+.accordion{
+    margin: 10px 35px;
+}
+
+.accordion-item{
+    background-color: #153258;
+    color: #fff;
+}

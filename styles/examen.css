@@ -1,0 +1,56 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+	background-color: #153258;
+}
+
+.dropdown-menu{
+	background-color: #153258;
+}
+
+.dropdown-item{
+	color: #fff;
+}
+
+.container{
+    margin: auto;
+    color: #153258;
+}
+
+.container h1, .quest-sections,
+.quest-sections .fw-bold{
+    border-radius: 5px;
+}
+
+.container h1{
+    padding: 15px;
+    background-color: #153258;
+    color: #fff;
+    text-align: center;
+}
+
+.quest-sections{
+    border: 1px solid #153258;
+    padding: 15px;
+}
+
+.quest-sections .fw-bold{
+    background-color: #153258;
+    margin: 5px 0;
+    color: #fff;
+    padding: 10px;
+}
+
+.form-check{
+    border-bottom: 1px solid #153258;
+    padding: 10px 30px;
+}
+
+.btn{
+    background-color: #153258;
+    border: none;    
+}

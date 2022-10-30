@@ -1,0 +1,48 @@
+*{
+    font-family: 'Montserrat', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    margin: 35px;
+    padding: 15px;
+    border: 1px solid #153258;
+    border-radius: 5px;
+    color: #153258;
+}
+
+.login-form{
+    margin: 35px;
+    padding: 15px;
+    background-color: #153258;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 10px;
+}
+
+.input{
+    border: none;
+    border-radius: 5px !important;
+    padding: 5px 5px;
+    width: 40%;
+}
+
+input:focus{
+    outline: none;
+}
+
+.btn{
+    background-color: #fff;
+    width: 25%;
+}
